@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=IBM+Plex+Sans+Arabic:wght@200&family=Lato:ital,wght@0,100;1,700&family=Red+Hat+Mono:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&family=Water+Brush&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../image/thanos-chasquando-dedos_3840x2160_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > h1{
+    font-family: 'water Brush', cursive;
+    color: #030303;
+    font-size: 5rem;
+    text-shadow: 0 0 15px #2895a3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#input-gif{
+    width: 720px;
+    height: 35px;
+    font-size: 26px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    color: rgba(192, 183, 183, 0.897);
+}
+
+#input-gif:hover{
+    width: 723px;
+    height: 36px;
+    cursor: pointer;
+}
+
+#input-gif::placeholder{
+    padding: 0.5rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.img-gif{
+    width: 500px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    box-shadow: 2px 1px 12px 10px rgb(51 25 45);
+}
+
+.img-gif:hover{
+    width: 503px;
+    height: 453px;
+}
+
+footer > p{
+    font-size: 40px;
+    font-family: 'Water Brush', cursive;
+    color: #0e0f0f;
+}
