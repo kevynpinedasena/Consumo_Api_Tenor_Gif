@@ -62,26 +62,26 @@ header > h1{
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
     padding: 10px;
     margin-top: 50px;
 }
 
 .img-gif{
-    width: 500px;
-    height: 450px;
+    width: 380px;
+    height: 380px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 28px;
     box-shadow: 2px 1px 12px 10px rgb(51 25 45);
 }
 
 .img-gif:hover{
-    width: 503px;
-    height: 453px;
+    width: 382px;
+    height: 382px;
 }
 
 footer > p{
